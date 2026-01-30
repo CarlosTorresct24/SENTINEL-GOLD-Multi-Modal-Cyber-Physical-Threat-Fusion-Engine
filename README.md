@@ -35,7 +35,7 @@ The system operates across four layers:
 The system calculates advanced statistical states:
 - **Entropy (H):** Measures the randomness of incoming threat vectors.
 - **Z-Score (σ):** Identifies statistical anomalies in threat intensity.
-- **Fused Score:** Weighted average (60% Cyber / 40% Physical)[cite: 2].
+- **Fused Score:** Weighted average (60% Cyber / 40% Physical).
 
 ## Core Technical Capabilities & Implementation
 * **Big Data (Kafka)	Scalable Ingestion:** Handles high-velocity threat feeds via a distributed message broker.
