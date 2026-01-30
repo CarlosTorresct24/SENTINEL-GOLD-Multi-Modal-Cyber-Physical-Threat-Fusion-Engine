@@ -19,8 +19,8 @@ Sentinel Gold is an advanced security orchestration platform that synchronizes d
 
 ## System Architecture
 The system operates across four layers:
-1. **Ingestion Layer (`spark_kafka.py`):** Real-time scraping of threat feeds (e.g., OpenPhish) pushed via Apache Kafka[cite: 1].
-2. **Fusion Engine (`ml_pipeline.py`):** Combines digital indicators with live CCTV human detection (OpenCV) using PySpark Structured Streaming[cite: 2].
+1. **Ingestion Layer (`spark_kafka.py`):** Real-time scraping of threat feeds (e.g., OpenPhish) pushed via Apache Kafka.
+2. **Fusion Engine (`ml_pipeline.py`):** Combines digital indicators with live CCTV human detection (OpenCV) using PySpark Structured Streaming.
 3. **Intelligence Layer (`rl_llm.py`):** A Reinforcement Learning-inspired logic gate that triggers actions, followed by GPT-2 generated incident summaries.
 4. **Executive Suite (`app.py` & `business.py`):** A high-end Streamlit dashboard providing heuristic nodes, entropy tracking, and automated business reports.
 
